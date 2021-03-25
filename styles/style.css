@@ -1,3 +1,8 @@
+body {
+    background-color: #FFF;
+    font-family: sans-serif;
+    margin: 0;
+}
 /*
 Colors:
 
@@ -5,4 +10,109 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+
+}*/
+nav {
+    position: fixed;
+    display: inline;
+    background-color: white;
+    width:100%;
+    padding-left: 45em;
+}
+
+.spot-logo{
+    align-items: flex-start;
+    width: 150px;
+    height: 40px;
+}
+
+nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(173, 172, 172);
+}
+
+.nav-wrapper {
+    position: fixed;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+    width:100%;
+}
+
+ul>li{
+    
+    align-items: flex-end;
+    justify-content:right;
+    display: inline;
+    margin:0 auto;
+    justify-content: space-between;    
+}
+
+.div-sec1{
+    background-image: url(/images/landing.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    padding-top: 220px;
+    padding-bottom: 2em;
+}
+
+h1{
+    position: relative;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.div-sec1>p{
+    color:rgba(241, 241, 177, 0.753);
+}
+
+.div-sec2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wht{
+    font-weight: bolder;
+    text-decoration: underline #00B172;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container img{
+    height: 35px;
+    width: 45px;
+}
+
+.container>h4{
+    color:  #00B172;
+    font-weight: 500;
+    align-items: center;
+}
+
+.div-sec3{
+    background-color: #00B172;
+    color: #FFF;
+    margin: 50px 194px 15px 0px;
+}
+.div-sec3 h3{
+    text-decoration: underline #FFF;
+}
+
+.img-white{
+    height: 20px;
+    width: 35px;
+
+}
+
+.img-west{
+    height: 300px;
+    width: 194px;
+    align-items: right;
+    float: right;
+    position: relative;
+    bottom: 314px;
+}
